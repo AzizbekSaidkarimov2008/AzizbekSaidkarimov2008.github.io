@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.fa{
+    color: grey;
+    font-size: 25px;
+}
+
+.Azizbek{
+    width: 270px !important;
+}
+
+.btn2{
+    position: fixed;
+    right: 4%;
+    bottom: 2%;
+    color: #fac81b;
+    z-index: 3;
+    font-size: 18px;
+    background: none;
+    border: 2px solid #fac81b;
+    padding: 12px 9px 12px 11px;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #314755
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #EE5514;
+}
+
+.as1 {
+    margin: 30px;
+}
+
+header .navbar .buy {
+    background: #EE5514;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+header .header_slider .slider_left .slider_title {
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 120%;
+    /* or 73px */
+    /* Black */
+    color: #1A0A03;
+}
+
+header .header_slider .slider_left .slider_title span {
+    color: #EE5514;
+}
+
+
+.video_lorem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.quality_img {
+    border-radius: 50%;
+    width: 144px;
+    height: 138px;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%)
+}
+
+.btn-grad {
+
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #EE5514;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 160%;
+    height: 55px;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media {
+    padding: 58px 5px 38px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9F3F5;
+}
+
+
+
+.footer_{
+    text-align: center;
+    color: #000;
+}
+
+.contacts .phone {
+    padding: 33px;
+    background-image: linear-gradient(114.2deg, rgba(121, 194, 243, 1) 22.6%, rgba(255, 180, 239, 1) 67.7%);
+    border-radius: 10px;
+}
+
+.contacts .phone i.fa {
+    color: #FFFFFF;
+    font-size: 30px;
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+        padding: 20px;
+    border-radius: 17px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.footer_2 {
+    text-decoration: none;
+    color: grey;
+    color: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: -moz-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: -o-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+}
+
+
+.form {
+    padding: 14px 27px 37px 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-image: linear-gradient(111.6deg, rgba(174, 68, 223, 1) 27.3%, rgba(246, 135, 135, 1) 112.7%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    margin-left: 42px;
+}
+
+.commentariya{
+    margin: 100px;
+    padding: 30px 20px 30px;
+    color: #000;
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+}
+
+
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.name {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form_name {
+    padding: 22px;
+}
+
+.number {
+    width: 89%;
+    border-radius: 5px
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+    width: 89%;
+    border-radius: 5px;
+}
+
+.subject {
+    width: 89%;
+}
+
+.submit {
+    border: 1px solid grey;
+    background: #fff;
+}
