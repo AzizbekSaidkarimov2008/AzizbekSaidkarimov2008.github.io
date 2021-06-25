@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
+/* ===================header start===================== */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./images/_01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header nav{
+    padding-top: 26px ;
+    padding-bottom: 227px;
+    width: 1440px;
+    margin: auto;
+}
+header nav .conteiner span{
+    color: #b78601;
+}
+.build{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: auto;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between ;
+    text-decoration: none;
+}
+.count{
+    text-decoration: none;
+}
+header .conteiner .count{
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+header .conteiner .count:hover{
+    color: #b78601;
+    font-size: 400;
+    font-weight: 700;
+}
+header nav ul li a{
+    margin-left: 45px;
+}
+header nav .home{
+    padding-top: 187px;
+}
+header nav .home h1{
+    color: #b78601;
+    font-size: 55px;
+    padding-bottom: 18px;
+}
+header nav .home h2{
+    padding-bottom: 58px;
+    font-size: 45px;
+    color: #fff;
+}
+h4{
+    padding-bottom: 36px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.home{
+    margin-left: 156px;
+}
+button{
+    color: white;
+    font-weight: 100;
+    background: none;
+    border-radius: 22px;
+    font-size: 22px;
+    width: 250px;
+    height: 55px;
+    cursor: pointer;
+    border: solid #fff;
+    margin-top: 50px;
+}
+/* main start */
+main{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+}
+.kounter{
+    width: 1440px;
+    margin: auto;
+}
+.main2{
+    background: black;
+    height: 745px;
+    margin: auto;
+}
+.main .kounter h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 150px;
+    margin-left: 164px;
+    margin-bottom: 85px;
+    color: #565656;
+}
+.main .img{
+   width: 1150px;
+   margin: auto;
+}
+.main .img2{
+    width: 1150px;
+    margin: auto;
+    margin-bottom: 100px;
+ }
+ .main img{
+    margin: 15px;
+    
+ }
+
+ .main2 h3{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    
+ }
+main{
+    background: black;
+}
+
+ .main2 .img{
+    padding-left:260px ;
+
+ }
+
+.icon{
+    background: black;
+    width: 1110px;
+    margin: auto;
+}
+.icon h3{
+    font-weight: 500;
+}
+.icon .img3{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+
+}
+.icon2 img{
+    margin: auto;
+    text-align: center;
+}
+.icon .img3 h2{
+    color: #fff;
+}
+.icon .img3 p{
+    color: #fff;
+}
+.icon2{
+    width: 506px;
+    margin: auto;
+}
+.icon3{
+    width: 505px;
+    margin: auto;
+}
+.icon4{
+    width: 495px;
+    margin: auto;
+}
+.logo{
+    width: 333px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-left: -26px;
+    margin-top: 18px;
+}
+.lee{
+    width: 333px;
+    margin: auto;
+    margin-left:-26px;
+    margin-top: 18px;
+}
+.true{
+    width: 333px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:-26px ;
+    margin-top: 18px;
+}
+.main2 .icon .img3 img{
+    margin-left: 68px;
+    margin-top: 8px;
+    margin-right: 13px;
+}
+.lee{
+    display: flex;
+    align-items: center;
+}
+.main2 p{
+    display: block;
+    text-align: center;
+    width: 371px;
+    margin-top: 18px;
+}
+.rasm{
+    margin-left: 165px ;
+}
+.kounter h4{
+    margin-left: 164px;
+}
+/* ==========section start============= */
+section{
+    width: 1110px;
+    margin: auto;
+    margin-top: 151px;
+    margin-bottom: 100px;
+}
+.lesson{
+    width: 1110px;
+    margin: auto;
+    margin-bottom: 147px;
+}
+.kombat{
+    display: flex;
+    justify-content: space-between;
+}
+.mortal{
+    width: 258px;
+    border: 1px solid black;
+}
+
+.paragraf{
+    margin-top: 1px;
+}
+.lorem{
+    margin-top: -4px;
+    color: #fff;
+    background: black;
+    padding-left: 30px;
+}
+.lesson h3{
+    background: #fff;
+    margin-bottom: 105px;
+    margin-top: 150px;
+    font-weight: 500;
+}
+.lesson h2{
+    width: 257px;
+    margin-bottom: 18px;
+    padding-top:25px;
+}
+.lesson p{
+    width: 257px;
+    height: 153px;
+    padding-right:63px;
+}
+.lesson .kombat .mortal .paragraf img{
+    background-color: #fff;
+}
+
+.dls21{
+    background-image: url(./images/L_02.png);
+    background-repeat: no-repeat;
+    font-weight: 300;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size:  35px;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+}
+.dls21 h2{
+    font-weight: 700;
+    padding-bottom: 35px;
+    font-size:  75px;
+    padding-left: 165px;
+    color: #fff;
+}
+
+.dls21 p{
+    width: 918px;
+    height: 293px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 160px;
+    color: #fff;
+}
+.dls21 .button{
+    margin-left: 160px;
+    margin-top: 100px;
+    border-radius: #fff;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.letter{
+    width: 1440px;
+    margin: auto;
+}
+/* footer start */
+footer{
+    background: black;
+}
+.conteiner2{
+    color: #b78601;
+    font-size: 400;
+    font-weight: 700;
+}
+.conteiner{
+    color: #fff;
+}
+.count{
+    text-decoration: none;
+}
+footer .conteiner .count{
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.conteiner .count:hover{
+    color: #b78601;
+    font-size: 400;
+    font-weight: 700;
+}
+footer ul li a{
+    display: block;
+    margin-left: 45px;
+}
+footer .build{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-top: 96px;
+}
+
+.photo p{
+    width: 540px;
+    color: #7b7b7b;
+}
+.build h4{
+    margin-left: 168px;
+}
+
+.photo2 .kontrol{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-align: end;
+}
+.photo3 .kontrol{
+    color: #fff;
+    text-decoration: none;
+}
+.conteiner9{
+    margin-top: 42px;
+    text-align: center;
+    color: #fff;
+}
+.vertikal{
+    width: 1110px;
+    margin: auto;
+}
+footer .photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
