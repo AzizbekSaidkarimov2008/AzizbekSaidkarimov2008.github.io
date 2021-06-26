@@ -4,6 +4,11 @@
     text-decoration: none;
 }
 
+audio{
+    display: block;
+    margin: auto;
+}
+
 body {
     background: #000;
 }
@@ -265,4 +270,131 @@ form {
 
 .feature .quality .quality_box:hover {
     background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+
+
+
+@media (max-width:1399px) {
+    div h1 {
+        top: 91% !important;
+    }
+
+    .btn2 {
+        z-index: 5;
+        right: 8%;
+    }
+}
+
+
+
+
+@media (max-width:1199px) {
+
+    div h1 {
+        font-size: 31px;
+    }
+
+    .btn2 {
+        z-index: 5;
+        right: 12%;
+        bottom: 8%;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {
+    div h1{
+        top: 99% !important;
+    }
+    div .gana span{
+
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:575px) {
+    div h1 {
+        display: flex;
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .type{
+        font-size: 26px;
+    }
+
+    div .gana span{
+        font-size: 16px;
+
+    }
+
+    .as1 {
+        margin: 10px;
+    }
+
+    .family {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_title {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    [data-aos^=zoom][data-aos^=zoom].aos-animate{
+        font-size: 30px;
+    }
+
+    .contacts p {
+        text-align: center;
+    }
+
+    .contacts a {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin: 22px;
+        width: 89%;
+    }
+
+    .phone-emails {
+        flex-wrap: wrap;
+    }
+
+    .form{
+        margin: 0;
+    }
+
+    .email{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .family{
+        display: flex;
+        justify-content: center;
+    }
+
+    .commentariya{
+        margin: 45px;
+        margin-top: 81px;
+    }
+
+    .btn2 {
+        z-index: 5;
+        right: 24%;
+    }
 }
